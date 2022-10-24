@@ -5,7 +5,8 @@ CONFIG -= qt
 
 SOURCES += \
         lfsr.c \
-        main.c
+        main.c \
+        sorteer.c
 
 DISTFILES += \
     find_assembler.s
@@ -40,4 +41,5 @@ HEADERS += \
     compiler-gcc4.h \
     compiler.h \
     instructions.h \
-    lfsr.h
+    lfsr.h \
+    sorteer.h
