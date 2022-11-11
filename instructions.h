@@ -5,7 +5,7 @@
 typedef struct jmp_struct
 {
     long long index_adr_diff;
-    unsigned long long *prev_index;
+    unsigned long long prev_index;
 }jmp_struct;
 
 typedef struct jmp_instr
